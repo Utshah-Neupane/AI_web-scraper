@@ -1,0 +1,31 @@
+# streamlit --->front-end
+# selenium -->webscraping
+# langchain -->calling the AI and having AI parse through our data
+
+
+
+Dependencies installed:
+1. python -m venv ai   ---->creates a virtual enviroment for us using venv (can call env ai or anything)
+
+2. --->to activate virtual environment
+    using powershell --> .\ai\scripts\activate.ps1
+    using command-prompt --> .\ai\scripts\activate.bat
+
+
+Installing all requirements/Dependencies ---> pip install -r requirements.txt
+
+
+To run this streamlit application: (running from same directory where main.py is) (if not main.py, then whichever file name in which streamlit is)
+streamlit run main.py 
+(to stop)  --> ctrl + c [from terminal]
+
+
+
+To run ollama:
+First I had to dowmload and install ollama in my computer and add it to the path
+Then I wrote "ollama pull llama3.2:1b" in the command prompt to download the smallest size version of ollama
+
+Now, when I do ollama run llama3.2:1b, I am able to run ollama(ai) locally in my computer cause its freee unlike chatgpt apis
+/exit --->this command will take you out of ollama
+
+
